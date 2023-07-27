@@ -1,12 +1,10 @@
 import React, {useState} from 'react';
-import Counter from './components/Counter.jsx';
-import Input from './components/Input.jsx';
-
+// import Counter from './components/Counter.jsx';
+import ClassCounter from './components/ClassCounter.jsx';
 function App() {
   return (
     <div className="App">
-    <Counter />
-    <Input />
+    <ClassCounter />
     </div>
   );
 }
