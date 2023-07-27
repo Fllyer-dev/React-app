@@ -1,11 +1,14 @@
-import React from 'react'
+import React, {useState} from 'react'
 function App() {
+  const [star, setStar] = useState(5);
+  function starPlus() {
+    setStar(star + 1);
+  }
   return (
     <div className="App">
-    Пишем хмтл код тута
-    <button>Нажми на меня</button>
+    <h1>{star}</h1>
+    <button onClick={starPlus}>Click</button>
     </div>
   );
 }
-
 export default App;
