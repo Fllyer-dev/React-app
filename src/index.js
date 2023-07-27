@@ -4,6 +4,7 @@ import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <div>Hello world</div>
+   <App /> // Читай App.js
+  // <div>Hello world</div>
   </React.StrictMode>
 );
